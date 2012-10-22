@@ -1,0 +1,109 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	cursor: pointer;
+	text-decoration: underline;
+	margin:0.5em 0 ;
+}
+
+a:hover{
+	text-decoration: line-through;
+}
+html{
+	/*background: url("background.jpg") no-repeat center center fixed #360438;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;*/
+	font-family: "Podkova";
+	font-size: 16px;
+	background: #7a487d;
+	color: #ffffff;
+}
+
+#text{
+	color: #402c41;
+	background: #ffffff;
+	left: 2%;
+	top: 5%;
+	position: fixed;
+	width: 20em;
+	height: 35em;
+	border: solid 2px #402c41;
+	border-radius: 20px;
+	z-index: 1000;
+}
+
+#text a{
+	margin: 0.5em 0;
+}
+.animate, .shirt{
+	width: 30em;
+	position: fixed;
+	left: 22%;
+	top: 10%;
+	display: none;
+}
+.animate img, .shirt img{
+	width: 100%;
+}
+.shirt{
+	cursor: pointer;
+}
+#idle-blink{
+	display: block;
+}
+
+#jump-over{
+	color: #402c41;
+	background: #ffffff;
+	position: fixed;
+	padding: 0.5em;
+	border: solid 2px #402c41;
+	border-radius: 20px;
+	z-index: 1000;
+	left: 90%;
+	top: 90%;
+	cursor: pointer;
+}
+.speech{
+	margin: 0.5em;
+}
+
+audio{
+	display: none;
+}
+
+p{
+	display:none;
+	font-size: 2em;
+	margin: 0.25em;
+}
+
+.hide{
+	display: none;
+}
+
+#resume{
+	width: 80em;
+	font-size: 0.5em;
+	overflow:auto;
+	float: right;
+}
+
+#resume a{
+	color: #ffffff;
+}
+
+.right{
+	text-align: right;
+	cursor: pointer;
+}
+
+#upgrade{
+	float: left;
+}
